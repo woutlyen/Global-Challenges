@@ -1,0 +1,35 @@
+\documentclass[kul]{kulakarticle} 
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\hypersetup{
+	linktoc=all,     %set to all if you want both sections and subsections linked
+}
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	linkcolor= black
+}
+\usepackage{subfiles}
+
+\title{Summary }
+\author{Wout Lyen}
+\date{Academic Year 2023 -- 2024}
+\address{
+	\textbf{Faculty of Engineering Technology} \\
+	Global Challenges for a Sustainable Society}
+
+
+\begin{document}
+	
+	\maketitle
+	\setcounter{tocdepth}{3}
+	\tableofcontents
+	\newpage
+	\subfile{sections/climate}
+	\newpage
+	\subfile{sections/biodiversity}
+
+	
+	
+\end{document}
