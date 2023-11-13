@@ -5,3 +5,5 @@ This is a summary of the Global Challenges for a Sustainable Society course of K
 
 	1. Climate
 	2. Biodiversity
+	3. Demography
+	4. Energy
