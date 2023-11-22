@@ -312,5 +312,5 @@ TSWLatexianTemp*
 *.glstex
 
 sections/*.pdf
-
+*.pdf
 # End of https://www.toptal.com/developers/gitignore/api/tex
