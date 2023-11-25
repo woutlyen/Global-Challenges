@@ -224,9 +224,163 @@ However, the discarded cars today mostly have a combustion engine. \textbf{Recyc
 	\caption{Lithium supply potential and demand}
 	\label{fig:lithiumsupplypotentialanddemand}
 \end{figure}
-
+\newpage
 \subsection{Impact throughout material lifecycle}
+\subsubsection{Overview of impacts}
 
+The Global Resources Outlook published by the United Nations Environment Programme (UNEP) in 2019 analyzed the impact of natural resource use on the environment and human health. The focus of the discussion is on the colored bars in figure \ref{fig:materialimpact}, representing \textbf{the share of the global impact of different resource types} (biomass, metals, non-metallic minerals, and fossil fuels) \textbf{on four categories}: climate change, particulate matter health, water stress, and land-use related biodiversity loss.\\
+\\
+When considering the impact of all resource types together, they collectively contribute to:
+
+\begin{enumerate}
+	\item \textbf{More than 50\% of total global greenhouse gas emissions} (excluding climate impacts related to land use). All types of resources significantly contribute to overall impacts.
+	\item \textbf{More than 90\% of biodiversity loss and water stress}. Agriculture, especially household food consumption, is the primary driver of these impacts.
+\end{enumerate}
+\ \\
+Figure \ref{fig:materialimpact} breaks down the impact of each resource type on different categories.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../images/Material_impact}
+	\caption{Global impacts split by recourse type, remaining economy and households}
+	\label{fig:materialimpact}
+\end{figure}
+\newpage
+\ \\
+\textbf{Biomass:}
+\begin{itemize}
+	\item Responsible for almost \textbf{90\% of global water stress}.
+	\item Contributes to almost \textbf{90\% of land-use related biodiversity loss}, involving habitat destruction, biodiversity loss, soil degradation, and loss of ecosystem services.
+	\item Accounts for more than \textbf{30\% of resource-related greenhouse gas emissions} (excluding land use change).
+\end{itemize}
+\ \\
+\textbf{Metals:}
+\begin{itemize}
+	\item Between 2000 and 2015, climate change and health impacts from metal extraction and production approximately doubled.
+	\item \textbf{Climate change }impact is primarily \textbf{due to iron and steel production} (a quarter of global industrial energy demand) and energy-intensive \textbf{aluminium production}.
+	\item \textbf{Toxicity} impacts are a major concern for copper and precious metals.
+\end{itemize}
+\ \\
+\textbf{Non-metallic minerals:}
+\begin{itemize}
+	\item Makes up more than 45\% of the total mass of extracted resources. However, its impact remains limited.
+	\item The \textbf{production of clinker}, the main ingredient in cement, is a significant contributor to impacts, including greenhouse gas emissions because of the enormous volumes of concrete and cement.
+	\item \textbf{Mining} for sand can have \textbf{critical impacts on local ecosystems}.
+\end{itemize}
+\ \\
+\textbf{Fossil fuels:}
+\begin{itemize}
+	\item Coal, oil and natural gas provide energy and raw materials for various products like pharmaceuticals, plastics, and paints.
+	\item Contributes significantly to \textbf{environmental pollution, especially air pollution}, throughout extraction, processing, distribution, and use.
+	\item Over the recent years, there has been a more than \textbf{70\% increase in capacity for global fossil fuel electricity generation}, leading to increased access to affordable energy but with environmental and health trade-offs.
+\end{itemize}
+
+\subsubsection{Greenhouse gas emissions}
+
+As we just saw, \textbf{more than half of all greenhouse gas emissions are related to materials management activities.} If we look at material production only, we see a rise in emission from 5  GtCO2eq in 1995 to 11.5 Gt CO2eq in 2019. These emissions are projected to rise to approximately 50 Gt CO2eq by 2060. \\
+\\
+The largest contribution (left side of figure \ref{fig:ghgemissions}) comes from bulk materials production, such as iron and steel, cement, lime and plaster, other minerals mostly used as construction products, as well as plastics and rubber. Two thirds of the materials are used (right side of figure \ref{fig:ghgemissions}) to make capital goods, with buildings and vehicles among the most important. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../images/GHG_emissions}
+	\caption{GHG emissions}
+	\label{fig:ghgemissions}
+\end{figure}
+
+\paragraph{Comparing countries}
+\ \\
+The production of materials consumed in industrialized countries has been largely behind growth in developing and emerging economies from 1995-2015. This is due to the outsourcing of heavy industry to developing countries. \\
+\\
+The impact of countries can be compared from both \textbf{production and consumption perspectives} (all the material produced in a country $\leftrightarrow$ all the materials produced for all the goods used in a country). \\
+\\
+Because a lot of the heavy industry has been moved to developing countries, we usually see that for developed countries the impact from a consumption perspective is (much) higher than the production perspective, while for developing countries this is the opposite. 
+
+\paragraph{Cement and steel}
+\ \\
+Cement and steel are major contributors to greenhouse gas emissions. To reduce these emissions, there are several solutions. 
+\begin{itemize}
+	\item One is to \textbf{decrease production energy} through more efficient processes and use more renewable energy sources. 
+	\item Another solution is to \textbf{use different resources} during production processes, such as hydrogen instead of cokes in steel production. Another solution is to capture CO2 emissions before it is released into the atmosphere and store it, or use it elsewhere. 
+	\item \textbf{Reusing and recycling waste} can also help decrease the demand for new materials.
+\end{itemize}
+
+
+\paragraph{Biobased polymers}
+\ \\
+Biobased polymers capture some CO2 but emit CO2 during production, \textbf{depending on the resource used}. For example PLA made from maize has a much larger greenhouse gas emission than PLA made from sugar cane. These emissions can be comparable or even larger than petroleum-based polymers. So while biobased polymers have the potential for a lower impact, the \textbf{impact of the entire production process has to be evaluated} to ensure this.\\
+\\
+Waste treatment also contributes to emissions, but these are decreasing due to better recycling technology.
+
+\subsubsection{Measuring impact}
+
+The concept of environmental impact is a central theme in this course, prompting an exploration of its definition, categorization, and systematic quantification. This discussion aims to compare alternative solutions by bringing their impacts to a single scale for effective design and engineering purposes.\\
+\\
+When engaging with people in society about what impact is relevant to them, different categories emerge. Three primary concerns are identified:\\
+\\
+\textbf{Human Health:} Measured using Disability Adjusted Life Years (DALY’s), which considers not only the fact of being alive but also the quality of life, incorporating diseases into the parameter.\\
+\\
+\textbf{Biodiversity:} Assessed through the Potentially Disappeared Fraction of species (PDF) per surface unit per time period per year, reflecting concerns about the health and disappearance of flora and fauna.\\
+\\
+\textbf{Resource Depletion:} Evaluated by looking into the cost of replacing materials, considering the difficulty in replacing lost materials, especially when mining becomes more challenging and concentrations decrease.\\
+\\
+These endpoint indicators—Human Health, Biodiversity, and Resource Depletion—are indirectly affected through physical and chemical phenomena known as impact categories. Climate change is cited as an example, where various emissions, such as CO2 and methane, contribute. The need to account for the potency of different substances, like methane having a much greater impact than CO2, leads to the concept of CO2 equivalents. In the case of methane, for example, that's about 23 times more powerful in affecting the climate change effects.\\
+\\
+The systematic quantification involves quantifying inputs and outputs from systems, products, and processes. This information is then converted into impact effects through mid-point categories. The final challenge is connecting these mid-point indicators to the endpoint concerns of human health, biodiversity, and material depletion.\\
+\\
+Fortunately, a well-established methodology referred to as Life Cycle Assessment, and accompanying software tools are available to facilitate this process, offering a comprehensive approach to understanding and addressing environmental impact concerns.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.78\linewidth]{../images/Visualisation_for_measuring_impact}
+	\caption{Visualisation on how to measure impact}
+	\label{fig:visualisationformeasuringimpact}
+\end{figure}
+
+\subsubsection{Life Cycle Analysis}
+
+The systematic comparison of alternative design concepts or system designs, particularly concerning environmental impact and impact avoidance, is facilitated by the established field of Life Cycle Assessment (LCA). LCA is a well-studied and standardized methodology, with ISO 14040 series providing a solid foundation. Following the procedures outlined in these standards is crucial for conducting LCA studies effectively.\\
+\\
+The four main blocks of an LCA study are:\\
+\\
+\textbf{Goal and Scope Definition:} Clearly define what is included and excluded from the study to avoid confusion. Determine the system boundaries and decide on the scope, whether it's a product or a functionality.\\
+\\
+\textbf{Inventory:} Collect relevant data on inputs and outputs. This phase can be time-consuming but is indispensable for accurate analysis.\\
+\\
+\textbf{Impact Assessment:} Assess how different inputs and outputs contribute to various impact categories discussed earlier (e.g., human health, biodiversity, resource depletion).\\
+\\
+\textbf{Interpretation:} Use the results for product development, strategic planning, policy-making, or marketing. External verification may be required for certain applications.\\
+\\
+The challenge lies in determining system boundaries, such as what is included or excluded, and defining the functional unit. For example, when comparing cars, should one consider a two-seater equivalent to a van in functionality or based on a certain number of drives?\\
+\\
+The inventory stage involves tracking processes, materials, products, and their inputs and outputs. This includes energy, consumables, waste streams, and emissions. Allocation of impact to the product and by-products is essential.\\
+\\
+Once impacts are identified, normalization is employed to bring them to the same scale for comparison. However, determining what is "normal" or the reference point can be subjective. Weight factors based on different clusters of opinions can be used, but this introduces subjectivity.\\
+\\
+The ISO 14040 series recommends acknowledging the subjectivity in combining end-point categories (human health, biodiversity, and resource depletion) and suggests it as an optional exercise. Emphasizing the importance of underlying data is crucial, as it forms the basis for the scientific rigor of the study.
+\newpage
+\subsubsection{Case: Electric car}
+
+There is a lot of discussion whether or not electrical vehicles (EVs) are more environmentally friendly than internal combustion engine vehicles (ICEVs). The conclusion will largely depend on the system boundaries, and the impacts you consider.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../images/lca_emissions_electric_cars}
+	\caption{Lifecycle emissions in key European countries}
+	\label{fig:lcaemissionselectriccars}
+\end{figure}
+\ \\
+The goal of the shift to electrical vehicles is to reduce greenhouse gas emissions. It can be said that indeed this is the case, even including the production of the cars and batteries. It will depend on the source of the electricity (see figure \ref{fig:lcaemissionselectriccars}). Evidently, the benefit becomes more evident when the consumed energy has a low CO2 footprint as in Sweden or France.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../images/impacts_of_production_of_ICEV_and_BEV}
+	\caption{Impacts of production of BEVs and ICEVs accross different impact categories}
+	\label{fig:impactsofproductionoficevandbev}
+\end{figure}
+\ \\
+On the other hand, we have to be aware that the production of batteries contributes significantly to other environmental impacts such as human toxicity and ecotoxicity, making the impact for these categories larger for EVs than ICEVs according to the state-of-the-art.
+
+\subsection{Circular economy}
 
 
 \end{document}
