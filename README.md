@@ -7,4 +7,4 @@ This is a summary of the Global Challenges for a Sustainable Society course of K
 	2. Biodiversity
 	3. Demography
 	4. Energy
-	5. Raw materials and circular economy (Part of it)
+	5. Raw materials and circular economy
